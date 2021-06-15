@@ -169,6 +169,32 @@ _Note: the above example is the default if you target es6 for the compiler makin
 $ ts-node filename.ts
 ```
 
+Compiling with src and build directories
+
+-   In your terminal and main directory
+
+```
+tsc --init
+```
+
+_generates a tsconfig.json file_
+
+-   In the config file comment in "outDir" and "rootDir" then set up the paths
+
+-   This will set up using the command and compile it as directed
+
+```
+tsc
+```
+
+OR
+
+```
+tsc -w
+```
+
+_using -w makes it watch the files to compile on save_
+
 ## Notes
 
 ---
