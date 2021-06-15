@@ -772,3 +772,22 @@ export class User implements Mappable {
 ```
 
 -   When creating custom interfaces export it and import it into the class that should implement it, this tells typescript that it should match whatever parameters are set and points you straight to the errors
+
+## Sorting algorithms with typescript
+
+-   use a type guard
+
+-   typescript understands that by reading the line of the type guard, you are about to use that type and restores access to the properties of that type
+
+```javascript
+// type syntax below only works to restore access to string number and boolean type
+if (typeof this.collection === 'string') {
+}
+// works on all other types of constructor functions
+if (this.collection instanceof Array) {
+}
+```
+
+```javascript
+
+```
