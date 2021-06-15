@@ -822,3 +822,14 @@ export abstract class Sorter {
     }
 }
 ```
+
+## Interfaces vs Abstract classes
+
+-   Interface
+    -   sets up a contract between different classes
+    -   use when we have very different objects that we want to work together
+    -   promotes loose coupling
+-   Inheritance/Abstract classes
+    -   sets up a contract between different classes
+    -   use when we are trying to build up a definition of an object
+    -   strongly couples classes together
