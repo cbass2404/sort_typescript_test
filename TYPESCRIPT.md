@@ -788,6 +788,4 @@ if (this.collection instanceof Array) {
 }
 ```
 
-```javascript
-
-```
+-   usually better/ more effective to break out different types into it's own class and then sort that class instance
